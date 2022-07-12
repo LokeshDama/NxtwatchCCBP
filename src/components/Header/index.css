@@ -1,0 +1,40 @@
+/** pop-menu-content **/
+
+.pop-menu-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #f3ecec;
+  width: 100vw;
+  height: 100vh;
+}
+
+/** logout popup **/
+.popup-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-width: 40%;
+  min-height: 200px;
+  border-radius: 15px;
+}
+@media (max-width: 564px) {
+  .popup-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-width: 95%;
+    height: 150px;
+    border-radius: 15px;
+  }
+}
+@media (min-width: 564px) and (max-width: 998px) {
+  .popup-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-width: 50%;
+    height: 150px;
+    border-radius: 15px;
+  }
+}

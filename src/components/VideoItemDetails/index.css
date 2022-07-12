@@ -1,0 +1,10 @@
+@media (min-width: 768px) {
+  .playersm {
+    display: none;
+  }
+}
+@media (max-width: 768px) {
+  .playerlg {
+    display: none;
+  }
+}
